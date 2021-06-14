@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class anagramDetectorTest {
-     
+
     @Test
     void isAnagram_returns_false_for_anagrams() {
 
