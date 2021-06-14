@@ -31,7 +31,7 @@ public class anagramDetector {
             char[] word1array = newword1.replace(" ","").toCharArray();
             char[] word2array = newword2.replace(" ","").toCharArray();
 
- 
+
             Arrays.sort(word1array);
             Arrays.sort(word2array);
 
