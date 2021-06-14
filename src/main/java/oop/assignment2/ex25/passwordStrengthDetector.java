@@ -16,7 +16,7 @@ public class passwordStrengthDetector {
             count += 3;
         else
             count += 2;
- 
+
 // contains number
         if( password.matches("(?=.*[0-9]).*") )
             count += 1;
