@@ -50,7 +50,7 @@ class passwordStrengthDetectorTest {
     void howStrong_strong() {
         //given
         passwordStrengthDetector detector = new passwordStrengthDetector();
-   
+
 
         // when call detector
         int expected = 6;
