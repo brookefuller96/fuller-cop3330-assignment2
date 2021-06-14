@@ -2,7 +2,7 @@ package oop.assignment2.ex26;
 
 import java.util.Scanner;
 
-public class Solution25 {
+public class Solution26 {
 
     private static final Scanner in = new Scanner(System.in);
     private static String balance;
@@ -16,7 +16,7 @@ public class Solution25 {
         PaymentCalculator payment = new PaymentCalculator();
         int result = payment.PaymentCalculator ();
 
-        String output = generateOutput(result);
+
         System.out.println(output);
 
     }
@@ -31,6 +31,5 @@ public class Solution25 {
         monthly_payment = in.nextLine();
     }
 
-    public static String generateOutput(){
-    }
+}
 }
