@@ -1,5 +1,4 @@
 package oop.assignment2.ex26;
-
 import java.util.Scanner;
 
 public class Solution26 {
@@ -14,9 +13,9 @@ public class Solution26 {
         readUserInput();
 
         PaymentCalculator payment = new PaymentCalculator();
-        int result = payment.PaymentCalculator ();
+        int result = payment.calculateMonthsUntilPaidOff(balance, APR, monthly_payment);
 
-
+        String output = generateOutput(result);
         System.out.println(output);
 
     }
@@ -31,5 +30,7 @@ public class Solution26 {
         monthly_payment = in.nextLine();
     }
 
+    public static String generateOutput(int PaymentCalculator) {
+    return "It will take you" + PaymentCalculator + "months to pay off this card.";
 }
 }
