@@ -21,10 +21,10 @@ public class Solution24 {
 
     public static void readUserInput(){
         System.out.println("Enter word 1");
-        word1 = in.next();
+        word1 = in.nextLine();
 
         System.out.println("Enter word 2");
-        word2 =in.next();
+        word2 = in.nextLine();
 
     }
 
