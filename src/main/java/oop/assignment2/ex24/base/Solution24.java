@@ -17,7 +17,7 @@ public class Solution24 {
 
         String output = generateOutput(result);
         System.out.println(output);
-    } 
+    }
 
     public static void readUserInput(){
         System.out.println("Enter word 1");
